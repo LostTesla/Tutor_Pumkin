@@ -1,7 +1,7 @@
 Tutor_Pumkin
 ============
 
-//Hangman Code
+Hangman Code
 
 private bool _keepPlaying = True;
 private int _guessesLeft = 5;
@@ -10,7 +10,7 @@ private int _lettersFound = 0;
 
 while(_keepPlaying != False)
 {
-	int _answerWordCount = length(_answer)
+	int _answerWordCount = length(_answer);
 	
 	if(guess == False)
 	{	
